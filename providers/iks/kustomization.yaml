@@ -1,7 +1,8 @@
 bases:
 - ../../base
 patchesStrategicMerge:
-- ingress.yaml
+- prometheus/prometheus-ingress.yaml
+- grafana/grafana-ingress.yaml
 - prometheus/prometheus-pvc.yaml
 - grafana/grafana-pvc.yaml
 patchesJson6902:
