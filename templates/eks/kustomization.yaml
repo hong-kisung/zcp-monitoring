@@ -29,6 +29,22 @@ patchesJson6902:
     kind: Ingress
     name: monitoring-prometheus-ingress
     version: v1beta1
+- path: ingress_annotaions_patch.yaml
+  target:
+    group: extensions
+    kind: Ingress
+    name: monitoring-alertmanager-ingress
+    version: v1beta1
+  target:
+    group: extensions
+    kind: Ingress
+    name: monitoring-grafana-ingress
+    version: v1beta1
+  target:
+    group: extensions
+    kind: Ingress
+    name: monitoring-prometheus-ingress
+    version: v1beta1
 - path: prometheus/prometheus-deployment_patch.yaml
   target:
     group: extensions

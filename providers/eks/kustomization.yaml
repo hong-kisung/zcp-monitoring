@@ -5,3 +5,4 @@ patchesStrategicMerge:
 - prometheus/prometheus-pvc.yaml
 - grafana/grafana-pvc.yaml
 - grafana/grafana-ingress.yaml
+- alertmanager/alertmanager-ingress.yaml

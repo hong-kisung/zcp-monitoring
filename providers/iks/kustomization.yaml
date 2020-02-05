@@ -5,6 +5,7 @@ patchesStrategicMerge:
 - grafana/grafana-ingress.yaml
 - prometheus/prometheus-pvc.yaml
 - grafana/grafana-pvc.yaml
+- alertmanager/alertmanager-ingress.yaml
 patchesJson6902:
 - path: prometheus/prometheus-deployment_patch.yaml
   target:
