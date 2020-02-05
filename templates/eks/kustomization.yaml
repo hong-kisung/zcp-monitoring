@@ -29,7 +29,7 @@ patchesJson6902:
     kind: Ingress
     name: monitoring-prometheus-ingress
     version: v1beta1
-- path: ingress_annotaions_patch.yaml
+- path: ingress_annotations_patch.yaml
   target:
     group: extensions
     kind: Ingress
